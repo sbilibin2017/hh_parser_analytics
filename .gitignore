@@ -1,0 +1,9 @@
+parser/venv/
+parser/etl.log
+
+.env
+.env.dev
+
+__pycache__/
+parser/__pycache__/
+utils/__pycache__/
