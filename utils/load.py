@@ -1,11 +1,11 @@
 '''Заполнение БД.'''
 
 import os
-from contextlib import closing
 from pathlib import Path
 from typing import Tuple
 
 import psycopg2
+from conTEXTlib import closing
 from dotenv import load_dotenv
 
 from hh_parser_analytics.utils.constants import TABLE_COLNAMES

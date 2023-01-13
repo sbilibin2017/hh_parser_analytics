@@ -55,9 +55,9 @@ components:
     SuggestsResumeSearchKeyword:
       value:
         items:
-          - text: Москва
-          - text: Мосты
-          - text: Московская государственная юридическая академия
+          - TEXT: Москва
+          - TEXT: Мосты
+          - TEXT: Московская государственная юридическая академия
     VacancyAddVacancyRequestBody:
       value:
         accept_handicapped: true
@@ -135,11 +135,11 @@ components:
             id: '609535'
             items:
               count: 55
-              url: 'https://api.hh.ru/resumes?order_by=publication_time&saved_search_id=123456&text=manager&area=1'
+              url: 'https://api.hh.ru/resumes?order_by=publication_time&saved_search_id=123456&TEXT=manager&area=1'
             name: Managers in Moscow
             new_items:
               count: 15
-              url: 'https://api.hh.ru/resumes?order_by=publication_time&saved_search_id=123456&text=manager&area=1&last_used=2015-11-12T18%3A06%3A04%2B0300'
+              url: 'https://api.hh.ru/resumes?order_by=publication_time&saved_search_id=123456&TEXT=manager&area=1&last_used=2015-11-12T18%3A06%3A04%2B0300'
             subscription: true
         page: 0
         pages: 1
@@ -255,9 +255,9 @@ components:
       value:
         items:
           - id: '2716'
-            text: Системы тепло - и холодоснабжения
+            TEXT: Системы тепло - и холодоснабжения
           - id: '3019'
-            text: Холодный цех
+            TEXT: Холодный цех
     VacanciesDraft:
       value:
         found: 2
@@ -610,7 +610,7 @@ components:
         created_at: '2015-08-27T10:30:14+0300'
         id: '123654'
         is_mine: true
-        text: не считаю нужным
+        TEXT: не считаю нужным
     SuggestsSuggestsPositions:
       value:
         items:
@@ -619,7 +619,7 @@ components:
               - accept_incomplete_resumes: false
                 id: '70'
                 name: 'Менеджер по продажам, менеджер по работе с клиентами'
-            text: Менеджер по развитию бизнеса
+            TEXT: Менеджер по развитию бизнеса
     EmployerManagerInfo:
       value:
         additional_phone:
@@ -668,7 +668,7 @@ components:
             created_at: '2015-08-27T10:19:55+0300'
             id: '123456'
             is_mine: false
-            text: |-
+            TEXT: |-
               обратить внимание на данного кандидата
               срочно!
           - access_type:
@@ -679,7 +679,7 @@ components:
             created_at: '2015-08-27T10:30:14+0300'
             id: '123654'
             is_mine: true
-            text: не считаю нужным
+            TEXT: не считаю нужным
         page: 0
         pages: 1
         per_page: 20
@@ -724,11 +724,11 @@ components:
         id: '609535'
         items:
           count: 55
-          url: 'https://api.hh.ru/resumes?order_by=publication_time&saved_search_id=123456&text=manager&area=1'
+          url: 'https://api.hh.ru/resumes?order_by=publication_time&saved_search_id=123456&TEXT=manager&area=1'
         name: Managers in Moscow
         new_items:
           count: 15
-          url: 'https://api.hh.ru/resumes?order_by=publication_time&saved_search_id=123456&text=manager&area=1&last_used=2015-11-12T18%3A06%3A04%2B0300'
+          url: 'https://api.hh.ru/resumes?order_by=publication_time&saved_search_id=123456&TEXT=manager&area=1&last_used=2015-11-12T18%3A06%3A04%2B0300'
         subscription: true
     EmployerDictionariesTests:
       value:
@@ -1396,7 +1396,7 @@ components:
                 name: Интернет-компания
             logo_urls:
               '90': 'https://hh.ru/employer-logo/289055.png'
-            text: HeadHunter
+            TEXT: HeadHunter
             url: 'http:/hh.ru'
     EmployersEmployerDepartments:
       value:
@@ -1434,7 +1434,7 @@ components:
               name: Москва
             id: '38921'
             synonyms: бывш. МВТУ им. Н.Э. Баумана
-            text: 'Московский государственный технический университет им. Н.Э. Баумана, Москва'
+            TEXT: 'Московский государственный технический университет им. Н.Э. Баумана, Москва'
     Locales:
       value:
         - current: true
@@ -1450,11 +1450,11 @@ components:
       value:
         items:
           - id: '2716'
-            text: Системы тепло- и холодоснабжения
+            TEXT: Системы тепло- и холодоснабжения
           - id: '3019'
-            text: Холодный цех
+            TEXT: Холодный цех
           - id: '3018'
-            text: Холодные продажи
+            TEXT: Холодные продажи
     VacanciesVacancies:
       value:
         arguments: null
@@ -1523,7 +1523,7 @@ components:
               id: fullDay
               name: Полный день
             snippet:
-              requirement: 'Высшее образование. Опыт работы в качестве <highlighttext>секретаря</highlighttext>, офис-менеджера. Знание делопроизводства, документооборота. Коммуникативные навыки.'
+              requirement: 'Высшее образование. Опыт работы в качестве <highlightTEXT>секретаря</highlightTEXT>, офис-менеджера. Знание делопроизводства, документооборота. Коммуникативные навыки.'
               responsibility: 'Документооборот (регистрация, отправка, контроль исполнения писем, ведение протоколов, отчетность). Распределение корреспонденции. Прием и распределение телефонных звонков.'
             sort_point_distance: 226.001293
             type:
@@ -1573,9 +1573,9 @@ components:
     SuggestsVacancySearchKeyword:
       value:
         items:
-          - text: Java
-          - text: JavaScript
-          - text: Java программист
+          - TEXT: Java
+          - TEXT: JavaScript
+          - TEXT: Java программист
     DictionariesFaculties:
       value:
         - id: '23'
@@ -1587,10 +1587,10 @@ components:
       value:
         items:
           - id: '1'
-            text: Москва
+            TEXT: Москва
             url: 'https://api.hh.ru/areas/1'
           - id: '2019'
-            text: Московская область
+            TEXT: Московская область
             url: 'https://api.hh.ru/areas/2019'
     ArtifactsArtifactsPhoto:
       value:
@@ -1681,7 +1681,7 @@ components:
       value:
         items:
           - id: '382'
-            text: 'Холодильная, криогенная техника и кондиционирование (Инженер)'
+            TEXT: 'Холодильная, криогенная техника и кондиционирование (Инженер)'
     ServicesEmployerServices:
       value:
         items:
@@ -2013,7 +2013,7 @@ components:
               deprecated: true
               enum:
                 - locale
-                - text
+                - TEXT
                 - area_id
               type: string
             bad_arguments:
@@ -2027,11 +2027,11 @@ components:
                       Поле, в котором допущена ошибка. 
                       Возможные значения:
                       * `locale` — указан неподдерживаемый язык
-                      * `text` — искомый текст должен быть длиной от 2 до 30000 символов
+                      * `TEXT` — искомый текст должен быть длиной от 2 до 30000 символов
                       * `area_id` - указан не валидный идентификатор
                     enum:
                       - locale
-                      - text
+                      - TEXT
                       - area_id
                     type: string
                 type: object
@@ -2051,11 +2051,11 @@ components:
                       Поле, в котором допущена ошибка. 
                       Возможные значения:
                       * `locale` — указан неподдерживаемый язык
-                      * `text` — искомый текст должен быть длиной от 2 до 30000 символов
+                      * `TEXT` — искомый текст должен быть длиной от 2 до 30000 символов
                       * `area_id` - указан не валидный идентификатор
                     enum:
                       - locale
-                      - text
+                      - TEXT
                       - area_id
                     type: string
                 type: object
@@ -2889,7 +2889,7 @@ components:
           $ref: '#/components/schemas/SuggestsLogoUrl'
           description: Ссылка на логотип организации
           type: object
-        text:
+        TEXT:
           description: Название организации
           type: string
         url:
@@ -2897,7 +2897,7 @@ components:
           type: string
       required:
         - id
-        - text
+        - TEXT
     SuggestsLogoUrl:
       properties:
         '90':
@@ -3229,12 +3229,12 @@ components:
         id:
           description: Идентификатор специализации
           type: string
-        text:
+        TEXT:
           description: Название специализации
           type: string
       required:
         - id
-        - text
+        - TEXT
       type: object
     ArtifactsArtifactPhotoResponse:
       allOf:
@@ -3269,12 +3269,12 @@ components:
         id:
           description: Идентификатор ключевого навыка
           type: string
-        text:
+        TEXT:
           description: Название ключевого навыка
           type: string
       required:
         - id
-        - text
+        - TEXT
       title: Ключевой навык
       type: object
     VacancyDraftDraftCreate:
@@ -3692,11 +3692,11 @@ components:
       type: object
     SuggestsSearchKeywordItem:
       properties:
-        text:
+        TEXT:
           description: Ключевое слово
           type: string
       required:
-        - text
+        - TEXT
       type: object
     VacanciesVacancyProlongate:
       properties:
@@ -4058,7 +4058,7 @@ components:
           $ref: '#/components/schemas/VacancyCounters'
         snippet:
           $ref: '#/components/schemas/VacancySnippet'
-          description: 'Дополнительные текстовые снипеты (отрывки) по найденной вакансии. Если в тексте снипета встретилась поисковая фраза (параметр `text`), она будет подсвечена тегом `highlighttext`'
+          description: 'Дополнительные текстовые снипеты (отрывки) по найденной вакансии. Если в тексте снипета встретилась поисковая фраза (параметр `TEXT`), она будет подсвечена тегом `highlightTEXT`'
         sort_point_distance:
           $ref: '#/components/schemas/VacancySortPointDistance'
       required:
@@ -4774,12 +4774,12 @@ components:
           description: Альтернативное название учебного заведения
           nullable: true
           type: string
-        text:
+        TEXT:
           description: Полное название учебного заведения
           type: string
       required:
         - id
-        - text
+        - TEXT
         - area
       type: object
     ErrorsRequestEntityTooLargeErrors:
@@ -5327,7 +5327,7 @@ components:
         id:
           description: Идентификатор региона
           type: string
-        text:
+        TEXT:
           description: Название региона
           type: string
         url:
@@ -5335,7 +5335,7 @@ components:
           type: string
       required:
         - id
-        - text
+        - TEXT
         - url
       type: object
     VacancyDraftVacanciesDraftResponse:
@@ -6107,7 +6107,7 @@ components:
         is_mine:
           description: Комментарий написан текущим пользователем?
           type: boolean
-        text:
+        TEXT:
           description: Текст комментария. Может содержать символы новой строки
           type: string
       required:
@@ -6115,7 +6115,7 @@ components:
         - created_at
         - id
         - is_mine
-        - text
+        - TEXT
         - access_type
       title: Комментарий
     ApplicantCommentsAuthor:
@@ -6585,13 +6585,13 @@ components:
           description: Идентификатор профессиональной роли
           example: '21'
           type: string
-        text:
+        TEXT:
           description: Название профессиональной роли
           example: Водитель
           type: string
       required:
         - id
-        - text
+        - TEXT
         - accept_incomplete_resumes
       type: object
     ArtifactsArtifactConditions:
@@ -7689,13 +7689,13 @@ components:
           minItems: 1
           title: 'Массив профессиональных ролей, соответствующих должности'
           type: array
-        text:
+        TEXT:
           description: Название должности
           example: Личный водитель
           type: string
       required:
         - id
-        - text
+        - TEXT
         - professional_roles
       type: object
     SuggestsProfessionalRoleItemWithName:
@@ -7751,13 +7751,13 @@ components:
           minItems: 1
           title: 'Массив специализаций, соответствующих должности'
           type: array
-        text:
+        TEXT:
           description: Название должности
           example: Личный водитель
           type: string
       required:
         - id
-        - text
+        - TEXT
         - professional_roles
       type: object
     SuggestsSpecializationsWithName:
@@ -8557,7 +8557,7 @@ info:
   title: HeadHunter API
   version: 1.0.0
   x-logo:
-    altText: HH Logo
+    altTEXT: HH Logo
     url: 'https://hhcdn.ru/icms/10132131.svg'
 openapi: 3.0.3
 security:
@@ -10225,7 +10225,7 @@ paths:
       summary: Поиск работодателя
       description: 'При указании параметров пагинации (`page`, `per_page`) работает ограничение: глубина возвращаемых результатов не может быть больше `5000`. Например, возможен запрос `per_page=10&page=499` (выдача с `4991` по `5000` работодателя), но запрос с `per_page=10&page=500` вернёт ошибку (выдача с `5001` до `5010` работодателя)'
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска. Переданное значение ищется в названии и описании работодателя
           required: false
@@ -10939,7 +10939,7 @@ paths:
           required: false
           schema:
             type: number
-        - name: text
+        - name: TEXT
           in: query
           description: 'Переданное значение ищется в полях вакансии, указанных в параметре `search_field`. Доступен [язык запросов](https://hh.ru/article/1175). Специально для этого поля есть [автодополнение](https://github.com/hhru/api/blob/master/docs/suggests.md#vacancy-search-keyword)'
           required: false
@@ -11138,7 +11138,7 @@ paths:
           in: query
           description: |
             Если значение `true` — автоматическое преобразование вакансий отключено. По умолчанию – false.
-            При включённом автоматическом преобразовании, будет предпринята попытка изменить текстовый запрос пользователя на набор параметров. Например, запрос `text=москва бухгалтер 100500` будет преобразован в `text=бухгалтер&only_with_salary=true&area=1&salary=100500`
+            При включённом автоматическом преобразовании, будет предпринята попытка изменить текстовый запрос пользователя на набор параметров. Например, запрос `TEXT=москва бухгалтер 100500` будет преобразован в `TEXT=бухгалтер&only_with_salary=true&area=1&salary=100500`
           required: false
           schema:
             type: boolean
@@ -11223,7 +11223,7 @@ paths:
           required: false
           schema:
             type: number
-        - name: text
+        - name: TEXT
           in: query
           description: 'Переданное значение ищется в полях вакансии, указанных в параметре `search_field`. Доступен [язык запросов](https://hh.ru/article/1175). Специально для этого поля есть [автодополнение](https://github.com/hhru/api/blob/master/docs/suggests.md#vacancy-search-keyword)'
           required: false
@@ -11422,7 +11422,7 @@ paths:
           in: query
           description: |
             Если значение `true` — автоматическое преобразование вакансий отключено. По умолчанию – false.
-            При включённом автоматическом преобразовании, будет предпринята попытка изменить текстовый запрос пользователя на набор параметров. Например, запрос `text=москва бухгалтер 100500` будет преобразован в `text=бухгалтер&only_with_salary=true&area=1&salary=100500`
+            При включённом автоматическом преобразовании, будет предпринята попытка изменить текстовый запрос пользователя на набор параметров. Например, запрос `TEXT=москва бухгалтер 100500` будет преобразован в `TEXT=бухгалтер&only_with_salary=true&area=1&salary=100500`
           required: false
           schema:
             type: boolean
@@ -11607,7 +11607,7 @@ paths:
           required: false
           schema:
             type: number
-        - name: text
+        - name: TEXT
           in: query
           description: 'Переданное значение ищется в полях вакансии, указанных в параметре `search_field`. Доступен [язык запросов](https://hh.ru/article/1175). Специально для этого поля есть [автодополнение](https://github.com/hhru/api/blob/master/docs/suggests.md#vacancy-search-keyword)'
           required: false
@@ -11820,7 +11820,7 @@ paths:
           description: |
             Если значение `true` — автоматическое преобразование вакансий отключено. По умолчанию – false.
 
-            При включённом автоматическом преобразовании, будет предпринята попытка изменить текстовый запрос пользователя на набор параметров. Например, запрос `text=москва бухгалтер 100500` будет преобразован в `text=бухгалтер&only_with_salary=true&area=1&salary=100500`
+            При включённом автоматическом преобразовании, будет предпринята попытка изменить текстовый запрос пользователя на набор параметров. Например, запрос `TEXT=москва бухгалтер 100500` будет преобразован в `TEXT=бухгалтер&only_with_salary=true&area=1&salary=100500`
           required: false
           schema:
             type: boolean
@@ -11860,7 +11860,7 @@ paths:
         '201':
           description: Успешно создано
           content:
-            text/html:
+            TEXT/html:
               schema:
                 type: string
           headers:
@@ -12066,39 +12066,39 @@ paths:
           required: false
           schema:
             type: number
-        - name: text
+        - name: TEXT
           in: query
           description: |
             Поисковая фраза. Найдет резюме, в которых встречаются все слова заданной фразы. Можно указать несколько значений.
 
-            Каждый дополнительный `text` уточняет поиск. В качестве поисковой фразы можно использовать [язык поисковых запросов](http://hh.ru/article.xml?articleId=1175). Специально для этого поля есть [автодополнение](https://github.com/hhru/api/blob/master/docs/suggests.md#resume-search-keyword).
+            Каждый дополнительный `TEXT` уточняет поиск. В качестве поисковой фразы можно использовать [язык поисковых запросов](http://hh.ru/article.xml?articleId=1175). Специально для этого поля есть [автодополнение](https://github.com/hhru/api/blob/master/docs/suggests.md#resume-search-keyword).
 
-            Для тонкой настройки по фразе можно использовать параметры `text.logic`, `text.field`, `text.period`. При использовании дополнительных `text.*` полей, необходимо указывать весь набор (триаду) параметров
+            Для тонкой настройки по фразе можно использовать параметры `TEXT.logic`, `TEXT.field`, `TEXT.period`. При использовании дополнительных `TEXT.*` полей, необходимо указывать весь набор (триаду) параметров
           required: false
           schema:
             type: string
-        - name: text.logic
+        - name: TEXT.logic
           in: query
           description: |
             Описывает, как производится поиск. Справочник с возможными значениями: `resume_search_logic` в [/dictionaries](#tag/Obshie-spravochniki/paths/~1dictionaries/get)
           required: false
           schema:
             type: string
-        - name: text.field
+        - name: TEXT.field
           in: query
           description: |
-            Описывает, где должны встречаться слова из поисковой фразы `text`.
+            Описывает, где должны встречаться слова из поисковой фразы `TEXT`.
 
-            В параметре `text.field` можно указать несколько значений через запятую, например — `?text.field=education,keywords`. Справочник с возможными значениями: `resume_search_fields` в [/dictionaries](#tag/Obshie-spravochniki/paths/~1dictionaries/get)
+            В параметре `TEXT.field` можно указать несколько значений через запятую, например — `?TEXT.field=education,keywords`. Справочник с возможными значениями: `resume_search_fields` в [/dictionaries](#tag/Obshie-spravochniki/paths/~1dictionaries/get)
           required: false
           schema:
             type: string
-        - name: text.period
+        - name: TEXT.period
           in: query
           description: |
             Период опыта работы.
 
-            Параметр имеет смысл только при `text.field` равным одному из значений: `experience`, `experience_company`, `experience_position`, `experience_description`, но указывать его необходимо всегда при указании других `text.*`. Если параметр не имеет смысла, то его значение можно оставить пустым
+            Параметр имеет смысл только при `TEXT.field` равным одному из значений: `experience`, `experience_company`, `experience_position`, `experience_description`, но указывать его необходимо всегда при указании других `TEXT.*`. Если параметр не имеет смысла, то его значение можно оставить пустым
           required: false
           schema:
             type: string
@@ -12293,10 +12293,10 @@ paths:
           required: false
           schema:
             type: boolean
-        - name: by_text_prefix
+        - name: by_TEXT_prefix
           in: query
           description: |
-            Если `true`, включается поиск по префиксу. Для каждого параметра `text` будут находиться не только полные совпадения слов, но еще и слова, начинающиеся с `text`. По умолчанию — `false`
+            Если `true`, включается поиск по префиксу. Для каждого параметра `TEXT` будут находиться не только полные совпадения слов, но еще и слова, начинающиеся с `TEXT`. По умолчанию — `false`
           required: false
           schema:
             type: boolean
@@ -12342,7 +12342,7 @@ paths:
         '201':
           description: Успешно создано
           content:
-            text/html:
+            TEXT/html:
               schema:
                 type: string
           headers:
@@ -12830,9 +12830,9 @@ paths:
       tags:
         - Подсказки
       summary: Подсказки по ключевым словам поиска вакансий
-      description: 'Предназначены для использования в поле `text` при [поиске вакансий](https://github.com/hhru/api/blob/master/docs/vacancies.md#search). Содержит названия должностей, компаний и другие фразы, часто используемые при поиске вакансий'
+      description: 'Предназначены для использования в поле `TEXT` при [поиске вакансий](https://github.com/hhru/api/blob/master/docs/vacancies.md#search). Содержит названия должностей, компаний и другие фразы, часто используемые при поиске вакансий'
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска ключевого слова. Искомый текст должен быть длиной два или более символа и не более 3 000 символов.
           required: true
@@ -12865,7 +12865,7 @@ paths:
       summary: 'Подсказки по регионам, являющимися листами в дереве регионов'
       description: 'Также доступна загрузка [полного дерева регионов](https://github.com/hhru/api/blob/master/docs/areas.md#areas) и [части дерева от определенного элемента](https://github.com/hhru/api/blob/master/docs/areas.md#item)'
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска региона. Искомый текст должен быть длиной два или более символа и не более 3 000 символов
           required: true
@@ -12904,7 +12904,7 @@ paths:
       summary: Подсказки по регионам
       description: 'Также доступна загрузка [полного дерева регионов](https://github.com/hhru/api/blob/master/docs/areas.md#areas) и [части дерева от определенного элемента](https://github.com/hhru/api/blob/master/docs/areas.md#item)'
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска региона. Искомый текст должен быть длиной два или более символа и не более 3 000 символов
           required: true
@@ -12949,7 +12949,7 @@ paths:
         - Подсказки
       summary: Подсказки по ключевым навыкам
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска ключевых навыков. Искомый текст должен быть длиной два или более символа и не более 3 000 символов.
           required: true
@@ -12981,7 +12981,7 @@ paths:
         - Подсказки
       summary: Подсказки по профессиональным ролям
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска профессиональной роли. Искомый текст должен быть длиной два или более символа и не более 3 000 символов.
           required: true
@@ -13012,7 +13012,7 @@ paths:
       summary: Подсказки по зарегистрированным организациям
       description: 'Данные из этой подсказки можно использовать, например, для выбора компании при заполнении опыта работы [в резюме](https://github.com/hhru/api/blob/master/docs/resumes.md#create_edit). Чтобы найти организации, которые могут публиковать вакансии, используйте [поиск](#tag/Rabotodatel/paths/~1employers/get)'
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска организации. Искомый текст должен быть длиной два или более символа и не более 3 000 символов
           required: true
@@ -13044,7 +13044,7 @@ paths:
         - Подсказки
       summary: Подсказки по специализациям
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска специализаций. Искомый текст должен быть длиной два или более символа и не более 3 000 символов.
           required: true
@@ -13075,9 +13075,9 @@ paths:
       tags:
         - Подсказки
       summary: Подсказки по ключевым словам поиска резюме
-      description: 'Предназначены для использования в поле `text` при [поиске резюме](https://github.com/hhru/api/blob/master/docs/resumes_search.md#search-params). Содержит названия должностей, компаний и другие фразы, часто используемые при поиске резюме'
+      description: 'Предназначены для использования в поле `TEXT` при [поиске резюме](https://github.com/hhru/api/blob/master/docs/resumes_search.md#search-params). Содержит названия должностей, компаний и другие фразы, часто используемые при поиске резюме'
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска ключевого слова. Искомый текст должен быть длиной два или более символа и не более 3 000 символов.
           required: true
@@ -13110,7 +13110,7 @@ paths:
       summary: Подсказки по названиям учебных заведений
       description: 'Чтобы узнать список факультетов, обратитесь к [соответствующему методу](#tag/Obshie-spravochniki/paths/~1educational_institutions/get)'
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска учебного заведения. Искомый текст должен быть длиной два или более символа и не более 3 000 символов.
           required: true
@@ -13142,7 +13142,7 @@ paths:
         - Подсказки
       summary: Подсказки по должностям вакансий
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска должности в вакансии. Искомый текст должен быть длиной два или более символа и не более 3 000 символов.
           required: true
@@ -13172,7 +13172,7 @@ paths:
         - Подсказки
       summary: Подсказки по должностям резюме
       parameters:
-        - name: text
+        - name: TEXT
           in: query
           description: Текст для поиска должности. Искомый текст должен быть длиной два или более символа и не более 3 000 символов.
           required: true
@@ -13231,7 +13231,7 @@ paths:
             schema:
               type: object
               properties:
-                text:
+                TEXT:
                   description: Текст комментария
                   type: string
                 access_type:
@@ -13377,7 +13377,7 @@ paths:
             schema:
               type: object
               properties:
-                text:
+                TEXT:
                   description: Текст комментария
                   type: string
                 access_type:
